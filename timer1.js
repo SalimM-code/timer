@@ -30,7 +30,7 @@ const timer = function() {
     console.log([x])
     setTimeout(() => {
       process.stdout.write('\x07');
-    }, inputArray * 1000)
+    }, inputArray[x] * 1000)
   }
 
 }
